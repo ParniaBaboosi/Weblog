@@ -1,0 +1,24 @@
+body {
+    background-color: #fff4e6;
+}
+h1 {
+    color: #547c09;
+}
+.menu {
+    background-color: #354a20;
+    padding: 20px;
+    border-radius: 15px; /* گرد کردن کل منو */
+    overflow: hidden; /* جلوگیری از بیرون‌زدگی گوشه‌ها */
+}
+
+.menu a {
+    font-size: 30px;
+    color: #ffffff;
+    text-decoration: none; /*برای اینکه زیرش خط نیوفته*/
+    margin: 135px; /*فاصله لینک هام*/
+  
+}
+.menu a:hover {
+    /*وقتی موس روی لینک می‌ره، رنگش عوض بشه*/
+    color: #dce8c3;
+}
